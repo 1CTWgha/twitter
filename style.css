@@ -4,6 +4,7 @@
 }
 body {
   background-image: url("bac.png");
+  background-size: 100%;
 }
 .row {
   margin: 3px;
