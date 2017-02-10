@@ -1,10 +1,7 @@
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 body {
-  background-image: url("bac.png");
-  background-size: 100%;
+  background-image: url("bac6.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .row {
   margin: 3px;
@@ -17,9 +14,9 @@ body {
 
 h1 {
   transition: .5s ease-in;
-  font-size: 70pt;
+  font-size: 80pt;
   font-weight: 900;
-  color: rgb(8, 57, 131);
+  color: #232066;
 }
 h1:hover{
   transition: .5s ease-in;
@@ -37,51 +34,10 @@ height: "25em";
 .extreme {
 width: 30px;
 }
-
-#economist{
-
+#huffPost {
+  margin-left: 50px;
 }
-
-#nytimes{
-
-}
-
-#wsj{
-
-}
-
-#hufpo{
-
-}
-
-#msnbc{
-
-}
-
-#ocd{
-
-}
-
-#fox{
-
-}
-
-#hill{
-
-}
-
-#breit{
-
-}
-
-#npr{
-
-}
-
-#cnn{
-
-}
-
-#reuters{
-
+#occDem {
+  margin-left: 50px;
+  margin-bottom: 70px;
 }
