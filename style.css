@@ -4,7 +4,8 @@
 }
 body {
   background-image: url("bac6.png");
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .row {
   margin: 3px;
@@ -13,9 +14,6 @@ body {
 .container {
   text-align: center;
   margin: 0 auto;
-}
-div{
-  border: solid 2px white;
 }
 
 h1 {
