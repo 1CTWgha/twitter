@@ -6,6 +6,7 @@ body {
   background-image: url("bac.png");
 }
 .row {
+  margin: 3px;
   display: inline-block;
 }
 .container {
