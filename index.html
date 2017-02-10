@@ -5,14 +5,19 @@
     <title>OMNIVORE</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div id="masthead">
       <h1 id="main">O M N I V O R E</h1>
-      <h4>Consume More</h4>
+      <h5>The newsfeed where you can consume the latest in current events, from a wide variety of sources.</h5>
+      <h4>Consume everything.</h4>
+    </div>
 
-      <div class="row col-xs-12">
+    <div class="container">
+      <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+      <div id="first" class="row col-xs-12">
         <div class="tweet col-xs-2"></div>
         <div class="tweet col-xs-4"><a class="twitter-timeline" href="https://twitter.com/nytimes" data-chrome="nofooter noborders noheader transparent" data-tweet-limit="1">Tweets by nytimes</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
         <div class="tweet col-xs-4"><a class="twitter-timeline" href="https://twitter.com/WSJ" data-chrome="nofooter noborders noheader transparent" data-tweet-limit="1">Tweets by WSJ</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
