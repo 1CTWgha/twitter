@@ -2,6 +2,8 @@ body {
   background-image: url("bac6.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  padding: 0px;
+
 }
 .row {
   margin: 3px;
@@ -11,10 +13,19 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+#first{
+  margin-top: 100px;
+}
+#masthead{
+
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
 
 h1 {
   transition: .5s ease-in;
-  font-size: 80pt;
+  font-size: 6em;
   font-weight: 900;
   color: #232066;
 }
@@ -40,4 +51,44 @@ width: 30px;
 #occDem {
   margin-left: 50px;
   margin-bottom: 70px;
+}
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
 }
