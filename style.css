@@ -1,3 +1,11 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+body {
+  background-image: url("bac.png");
+  background-size: 100%;
+}
 .row {
   margin: 3px;
   display: inline-block;
@@ -8,8 +16,14 @@
 }
 
 h1 {
-  font-size: 50pt;
+  transition: .5s ease-in;
+  font-size: 70pt;
   font-weight: 900;
+  color: rgb(8, 57, 131);
+}
+h1:hover{
+  transition: .5s ease-in;
+  color: rgb(201, 29, 45);
 }
 
 .timeline-Tweet-text {
@@ -18,4 +32,53 @@ h1 {
 .tweet{
 width: "50em";
 height: "25em";
+
+}
+
+#economist{
+
+}
+
+#nytimes{
+
+}
+
+#wsj{
+
+}
+
+#hufpo{
+
+}
+
+#msnbc{
+
+}
+
+#ocd{
+
+}
+
+#fox{
+
+}
+
+#hill{
+
+}
+
+#breit{
+
+}
+
+#npr{
+
+}
+
+#cnn{
+
+}
+
+#reuters{
+
 }
